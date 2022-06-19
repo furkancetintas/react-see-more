@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    background: #f9f9f9;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+.card-container .cards{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-container .card{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    color: #000;
+    max-width: 350px;
+    margin: 15px;
+    border: 1px solid #3171b9;
+    border-radius: 6px;
+    padding: 10px;
+    position: relative;
+}
+
+.card .id{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-bottom: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #3171b9;
+    border-right-style: none;
+    border-top-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.card .id span{
+    font-size: 12px;
+    margin: auto;
+}
+.font-icon{
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.card .card-title{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+.card .card-desc{
+    display: flex;
+    font-size: 14px;
+    margin: 10px 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    word-wrap: break-word;
+}
+.card .card-d, .card .card-address{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+    margin: 5px 10px;
+}
+.card .card-d{
+    justify-content: space-between;
+}
+.card-d .card-day, .card-addr{
+    font-size: 12px;
+}
+
+.card-d .card-addr{
+    display: flex;
+}
+.card-container .btn-load{
+    background: none;
+    border: none;
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
